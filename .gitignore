@@ -31,3 +31,10 @@ build/
 
 ### VS Code ###
 .vscode/
+
+### Additional ###
+.licenseheader.txt
+.mvnw
+.mvnw.cmd
+.nb-configuration.xml
+.nbactions.xml
