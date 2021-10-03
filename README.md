@@ -15,6 +15,9 @@ Table: **inventory**
 | stock | INTEGER |0|  |
 | created_at | DATETIME | CURRENT_TIMESTAMP |  |
 
+## Preview
+![Preview](preview.gif)
+
 ## License
 - [MIT License](https://choosealicense.com/licenses/mit/)
 - [BootstrapMade License](https://bootstrapmade.com/license/)
