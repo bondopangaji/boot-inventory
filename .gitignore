@@ -1,4 +1,4 @@
-HELP.md
+//HELP.md
 target/
 !.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
@@ -34,3 +34,5 @@ build/
 
 ### Additional ###
 /licenseheader.txt
+/nb-configuration.xml
+/nbactions.xml
