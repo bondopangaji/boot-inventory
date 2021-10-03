@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost
--- Generation Time: Oct 02, 2021 at 10:41 PM
+-- Generation Time: Oct 03, 2021 at 11:35 AM
 -- Server version: 10.4.21-MariaDB
 -- PHP Version: 8.0.10
 
@@ -32,7 +32,7 @@ CREATE TABLE `inventory` (
   `name` varchar(16) NOT NULL,
   `description` varchar(1000) NOT NULL,
   `stock` int(255) NOT NULL DEFAULT 0,
-  `created_at` datetime DEFAULT current_timestamp()
+  `created_at` datetime NOT NULL DEFAULT current_timestamp()
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
