@@ -24,5 +24,5 @@ Table: **inventory**
 
 ## Author
 <a href="https://github.com/bondopangaji">
-  <img src="https://avatars.githubusercontent.com/u/60285086?v=4" width="150" height="150"/>
+  <img alt="Bondo Pangaji" src="https://avatars.githubusercontent.com/u/60285086?v=4" width="150" height="150"/>
 </a>
