@@ -29,10 +29,8 @@ THE SOFTWARE.
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="description" content="Spring Boot Asssignment">
         <meta name="author" content="Bondo Pangaji">
-        <meta name="keyword" content="Spring Bootl">
+        <meta name="keyword" content="Spring Boot">
         <link rel="shortcut icon" href="img/favicon.png">
-
-        <title>Creative - Bootstrap Admin Template</title>
 
         <!-- Bootstrap CSS -->
         <link href="../../css/bootstrap.min.css" rel="stylesheet">
@@ -47,6 +45,7 @@ THE SOFTWARE.
    
         <link href="../../css/style.css" rel="stylesheet">
         <link href="../../css/style-responsive.css" rel="stylesheet" />
+        
     </head>
 
     <header th:fragment="navbar" class="header dark-bg">
@@ -55,38 +54,67 @@ THE SOFTWARE.
         </div>
 
         <!--logo start-->
-        <a th:href="@{/}" class="logo">ADMIN <span class="lite">DASHBOARD</span></a>
+        <a th:href="@{/}" class="logo">Spring Boot <span class="lite">Inventory</span></a>
         <!--logo end-->
-    </div>
 
-    <div class="top-nav notification-row">
-        <!-- notificatoin dropdown start-->
-        <ul class="nav pull-right top-menu">
-            <!-- reserved -->
-        </ul>
-        <!-- notificatoin dropdown end-->
-    </div>
-</header>
-<!--header end-->
-<!--sidebar start-->
-<aside th:fragment="sidebar">
-    <div id="sidebar" class="nav-collapse ">
-        <!-- sidebar menu start-->
-        <ul class="sidebar-menu">
-            <li class="sub-menu">
-                <a href="javascript:;" class="">
-                    <i class="icon_documents_alt"></i>
-                    <span>Inventory</span>
-                    <span class="menu-arrow arrow_carrot-right"></span>
-                </a>
-                <ul class="sub">
-                    <li><a class="" th:href="@{/inventory/list}">Inventory List</a></li>
-                    <li><a class="" th:href="@{/inventory/add}">Add New Inventory</a></li>
-                </ul>
-            </li>    
-        </ul>
-        <!-- sidebar menu end-->
-    </div>
-</aside>
-<!--sidebar end-->
+	    <div class="top-nav notification-row">
+	        <!-- notificatoin dropdown start-->
+	        <ul class="nav pull-right top-menu">
+	            <!-- reserved if needed -->
+	        </ul>
+	        <!-- notificatoin dropdown end-->
+	    </div>
+	</header>
+	<!--header end-->
+	
+	<!--sidebar start-->
+	<aside th:fragment="sidebar">
+	    <div id="sidebar" class="nav-collapse ">
+	        <!-- sidebar menu start-->
+	        <ul class="sidebar-menu">
+	            <li class="sub-menu">
+	                <a href="javascript:;" class="">
+	                    <i class="icon_documents_alt"></i>
+	                    <span>Inventory</span>
+	                    <span class="menu-arrow arrow_carrot-right"></span>
+	                </a>
+	                <ul class="sub">
+	                    <li><a class="" th:href="@{/inventory/list}">Inventory List</a></li>
+	                    <li><a class="" th:href="@{/inventory/add}">Add New Inventory</a></li>
+	                </ul>
+	            </li>    
+	        </ul>
+	        <!-- sidebar menu end-->
+	    </div>
+
+	</aside>
+	<!--sidebar end-->
+	
+    <footer th:fragment="footer" class="navbar navbar-fixed-bottom footer text-right">
+    	 <div class="credits">
+          Made with  <span class="fa 	fa-coffee"></span><br><b>© Bondo Pangaji</b>
+        </div>
+        <div class="credits">
+          <!--
+            All the links in the footer should remain intact.
+            You can delete the links only if you purchased the pro version.
+            Licensing information: https://bootstrapmade.com/license/
+            Purchase the pro version form: https://bootstrapmade.com/buy/?theme=NiceAdmin
+          -->
+          Theme by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+        </div>
+    </footer>
+	   	<!-- HTML5 shim and Respond.js IE8 support of HTML5 -->
+        <!--[if lt IE 9]>
+            <script src="js/html5shiv.js"></script>
+            <script src="js/respond.min.js"></script>
+            <script src="js/lte-ie7.js"></script>
+          <![endif]-->
+
+        <!-- =======================================================
+          Theme Name: NiceAdmin
+          Theme URL: https://bootstrapmade.com/nice-admin-bootstrap-admin-html-template/
+          Author: BootstrapMade
+          Author URL: https://bootstrapmade.com
+        ======================================================= -->
 </html>

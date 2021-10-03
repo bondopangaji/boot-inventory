@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 <html lang="en" xmlns:th="http://www.thymeleaf.org">
 
+
 <head th:replace="/includes/base :: head"></head>
+<head><title>Home Inventory</title></head>
 
 <body>
   <!-- container section start -->
@@ -14,16 +16,18 @@
     <!--sidebar start-->
     <aside th:replace="/includes/base :: sidebar"></aside>
     <!--sidebar end-->
-
+		
     <!--main content start-->
     <section id="main-content">
       <section class="wrapper">
       </section>        
     </section>
     <!--main content end-->
+    
+    <footer th:replace="/includes/base :: footer"></footer>
   </section>
   <!-- container section start -->
-
+	
   <!-- javascripts -->
   <script src="js/jquery.js"></script>
   <script src="js/jquery-ui-1.10.4.min.js"></script>

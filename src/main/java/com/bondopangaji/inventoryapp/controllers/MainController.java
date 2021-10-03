@@ -48,8 +48,8 @@ public class MainController {
     
     
     @GetMapping("/")
-    public String index() {
-        return "index";
+    public String home() {
+        return "home";
     }
     
     @GetMapping("/inventory/list")

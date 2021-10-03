@@ -1,43 +1,31 @@
 <!DOCTYPE html>
-<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<!--
+The MIT License
 
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="Creative - Bootstrap 3 Responsive Admin Template">
-        <meta name="author" content="GeeksLabs">
-        <meta name="keyword" content="Creative, Dashboard, Admin, Template, Theme, Bootstrap, Responsive, Retina, Minimal">
-        <link rel="shortcut icon" href="./img/favicon.png">
+Copyright 2021 Bondo Pangaji.
 
-        <title>Basic Table | Creative - Bootstrap 3 Responsive Admin Template</title>
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
 
-        <!-- Bootstrap CSS -->
-        <link href="../css/bootstrap.min.css" rel="stylesheet">
-        <!-- bootstrap theme -->
-        <link href="../css/bootstrap-theme.css" rel="stylesheet">
-        <!--external css-->
-        <!-- font icon -->
-        <link href="../css/elegant-icons-style.css" rel="stylesheet" />
-        <link href="../css/font-awesome.min.css" rel="stylesheet" />
-        <!-- Custom styles -->
-        <link href="../css/style.css" rel="stylesheet">
-        <link href="../css/style-responsive.css" rel="stylesheet" />
+The above copyright notice and this permission notice shall be included in
+all copies or substantial portions of the Software.
 
-        <!-- HTML5 shim and Respond.js IE8 support of HTML5 -->
-        <!--[if lt IE 9]>
-            <script src="js/html5shiv.js"></script>
-            <script src="js/respond.min.js"></script>
-            <script src="js/lte-ie7.js"></script>
-          <![endif]-->
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
+-->
+<html xmlns:th="http://www.thymeleaf.org">
 
-        <!-- =======================================================
-          Theme Name: NiceAdmin
-          Theme URL: https://bootstrapmade.com/nice-admin-bootstrap-admin-html-template/
-          Author: BootstrapMade
-          Author URL: https://bootstrapmade.com
-        ======================================================= -->
-    </head>
-
+    <head th:replace="/includes/base :: head"></head>
+    <head><title>List Inventory</title></head>
     <body>
         <!-- container section start -->
         <section id="container" class="">
@@ -107,6 +95,7 @@
                 </section>
             </section>
             <!--main content end-->
+             <footer th:replace="/includes/base :: footer"></footer>
         </section>
         <!-- container section end -->
         <!-- javascripts -->
