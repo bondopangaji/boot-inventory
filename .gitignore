@@ -38,3 +38,8 @@ build/
 .mvnw.cmd
 .nb-configuration.xml
 .nbactions.xml
+/licenseheader.txt
+/mvnw
+/mvnw.cmd
+/nbactions.xml
+/nb-configuration.xml
